@@ -34,7 +34,7 @@ const challenge3 = (num1,num2) => {
 const challenge4 = () => {
     let numArray = []
     for (let i = 0; i < 5; i++) {
-        numArray[i] = Math.ceil(Math.random()*50)
+        numArray.push(Math.ceil(Math.random()*50))
     }
     return numArray
 }
@@ -42,7 +42,7 @@ const challenge5 = () => {
     let numbers = []
     for (let i = 9; i >= 0; i--)
     {
-        numbers[9 - i] = i
+        numbers.push(i)
     }
     return numbers
 }
